@@ -1,13 +1,123 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* header stylee */
+
+#heroic__header {
+  background-color: #212529;
 }
+
+#heroic__header .navbar {
+  max-width: 1275px;
+  margin: 0 auto;
+}
+
+#heroic__navbar {
+  justify-content: flex-end;
+}
+
+/* end header style */
+
+
+
+/* banner style */
+
+.heroic__banner {
+  max-width: 1243px;
+  margin: 2.75rem auto;
+  padding: 5rem 6rem;
+  background: #f8f9fa;
+}
+
+.banner__top .top__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner__middle .middle__text {
+  font-size: 24px;
+}
+
+.banner__bottom .bottom__btn {
+  font-size: 1.25rem;
+  padding: 8px 16px;
+  border-radius: .3rem;
+  color: #fff;
+  border: none;
+  border-color: transparent;
+  background: #0c6efd;
+  transition: all .5s;
+}
+
+.banner__bottom .bottom__btn:hover {
+  background: #0b5ed7;
+}
+
+/* end banner style */
+
+
+
+/* item list style */
+
+.items__content {
+  max-width: 1243px;
+  margin: 2.75rem auto;
+}
+
+.card {
+  position: relative;
+  margin-top: 55px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 28px 22px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.card .card-icon i {
+  position: absolute;
+  top: -13%;
+  left: 40%;
+  font-size: 32px;
+  color: #fff;
+  background: #1170fd;
+  border: 1px solid #1170fd;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.card .card-body {
+  margin-top: 12px;
+}
+
+.card-body .card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-body .card-text {
+  font-size: 16px;
+}
+
+/* end item list style */
+
+
+
+/* footer style */
+
+.heroic__footer {
+  background: #212529;
+  color: #fff;
+  padding: 48px;
+}
+
+/* end footer style */
